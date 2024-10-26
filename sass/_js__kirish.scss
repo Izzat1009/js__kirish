@@ -1,0 +1,97 @@
+.js__kirish{
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.js__title{
+    overflow: hidden;
+    .kirish{
+        margin: 0 auto;
+        padding: 0 16px;
+        text-align: center;
+        p{
+
+            color: red;
+            font-family: "DM SANS" ;
+            font-weight: 400;
+             font-size: 40px;
+        }
+    }
+}
+h2{
+    font-size: 65px;
+    text-align: center;
+    font-family: "DM SANS"; 
+    color: #000;
+    font-family: 600;
+}
+.malumotlar{
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    font-size: 14px;
+   gap: 0 30px;
+
+    li{
+        color: blue;
+        font-family: "DM SANS";
+        font-weight: 400;
+        font-size: 12px;
+    }
+    span{
+        color: red;
+        font-family: "DM SANS";
+        font-weight: 600;
+    }
+}
+@media (max-width: 770px) {
+    .malumotlar{
+        flex-direction: column;
+    }
+    .js__title{
+        .kirish{
+            margin: 0 auto;
+            padding: 0 16px;
+            text-align: center;
+            p{
+    
+                color: red;
+                font-family: "DM SANS" ;
+                font-weight: 400;
+                 font-size: 25px;
+            }
+        }
+    }
+}
+@media (max-width: 430px){
+    h2{
+        font-size: 34px;
+    }
+    .js__title{
+        .kirish{
+            margin: 0 auto;
+            padding: 0 16px;
+            text-align: center;
+            p{
+    
+                color: red;
+                font-family: "DM SANS" ;
+                font-weight: 400;
+                 font-size: 14px;
+            }
+            code{
+                font-size: 14px;
+            }
+
+            .malumotlar{
+font-size: 16px;
+gap: 0 10px;
+            }
+        }
+    }
+}
